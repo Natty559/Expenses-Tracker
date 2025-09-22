@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#output {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.expense-item {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
+.expense-item:last-child {
+    border-bottom: none;
+}
+.summary {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
